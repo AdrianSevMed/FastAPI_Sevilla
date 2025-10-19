@@ -7,7 +7,7 @@
     <img src="images/codigo1.PNG" alt="Imatge del codi de l'activitat">
     <img src="images/codigo2.PNG" alt="Imatge del codi de l'activitat">
     <p>
-        Tal com es pot veure tenim una llita d'usuaris, i una funció que el que fa és convertir aquesta llista a diccionari. He fet la funció "passarADict" per tal d'estalviar-me codi, i redundància, en els diferents endpoints.
+        Tal com es pot veure tenim una llista d'usuaris, i una funció que el que fa és convertir aquesta llista a diccionari. He fet la funció "passarADict" per tal d'estalviar-me codi, i redundància, en els diferents endpoints.
         En el moment d'executar-ho amb la documentació de FastAPI, Swagger, ens donaria aquest resultat:
     </p>
     <img src="images/ui.PNG" alt="Imatge visual de Swagger">
@@ -41,7 +41,7 @@
         <img src="images/2.2.PNG" alt="Imatge sobre consultar un usuari">
     <h3>Llegir - Consultar tots els usuaris</h3>
         <p>
-            Ara volem, mitjançant el mètode GET llegir tots els usuaris. Un cop li donem a executar ens apareixerà la llista dels usuaris, amb l'usuari Lucía anteriorment afegida.
+            Ara volem, mitjançant el mètode GET, llegir tots els usuaris. Un cop li donem a executar ens apareixerà la llista dels usuaris, amb l'usuari Lucía anteriorment afegida.
         </p>
         <img src="images/3.0.PNG" alt="Imatge sobre consultar tots els usuaris">
         <img src="images/3.2.PNG" alt="Imatge sobre consultar tots els usuaris">
@@ -54,11 +54,11 @@
         <img src="images/4.0.PNG" alt="Imatge sobre actualitzar un usuari">
         <img src="images/4.1.PNG" alt="Imatge sobre actualitzar un usuari">
         <p>
-            En la següent captura es pot veure què passaria si m volem canviar-li el nom a un ID, el 5, que no existeix a la llista:
+            En la següent captura es pot veure què passaria si volem canviar-li el nom a un ID, el 5, que no existeix a la llista:
         </p>
         <img src="images/4.3.PNG" alt="Imatge sobre actualitzar un usuari">
         <p>
-            En canvi, si ho fem amb un ID que sí que existeix, per exemple, el 0, actualitzant el seu nom de "Adrián" a "Adrià":
+            En canvi, si ho fem amb un ID que sí que existeix, per exemple, el 0, actualitzant el seu nom de "Adrián" a "Adrià" s'actualitzarà sense problemes:
         </p>
         <img src="images/4.2.PNG" alt="Imatge sobre actualitzar un usuari">
     <h3>Eliminar - Esborrar usuari</h3>
@@ -75,6 +75,6 @@
         </p>
         <img src="images/5.2.PNG" alt="Imatge sobre borrar un usuari">
         <p>
-            En canvi, si volem eliminar un ID, per exemple el 2, funcionarà perfectament, i ens esborrarà l'usuari en qüestió. I a més, ara, Lucía passarà de ser l'ID 3, a ser la 2.
+            En canvi, si volem eliminar un ID que sí que existeix, com per exemple el 2, funcionarà perfectament, i ens esborrarà l'usuari en qüestió. I a més, ara, Lucía passarà de ser l'ID 3, a ser l'ID 2.
         </p>
         <img src="images/5.3.PNG" alt="Imatge sobre borrar un usuari">
