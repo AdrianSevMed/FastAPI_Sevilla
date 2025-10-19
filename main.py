@@ -51,3 +51,5 @@ def delete_user(id: int):
         users.pop(id)
         diccionari = passarADict()
         return diccionari
+    
+
